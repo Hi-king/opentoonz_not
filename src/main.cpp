@@ -38,7 +38,6 @@ class MyFx : public tnzu::Fx {
   // PARAM
   //
   enum {
-    PARAM_K,
     PARAM_COUNT,
   };
   int param_count() const override { return PARAM_COUNT; }
